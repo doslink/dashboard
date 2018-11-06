@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.env
+public
+errorShots
+.idea
+.DS_Store
+generated/

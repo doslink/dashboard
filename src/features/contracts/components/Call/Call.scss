@@ -1,0 +1,104 @@
+.mainContainer {
+  background: $background-color;
+  display: flex;
+  flex-direction: row;
+  padding: 0 $gutter-size;
+  margin-top: $title-height;
+}
+
+.content {
+  min-width: 400px;
+  width: 55%;
+  margin: 0 auto;
+}
+
+.submit {
+  text-align: right;
+}
+
+.submitTable {
+  border-spacing: 5px;
+
+  tr:first-child td {
+    padding-bottom: $gutter-size/2;
+  }
+
+  td input {
+    margin-right: 7px;
+  }
+
+  td {
+    padding: 0;
+    vertical-align: top;
+  }
+
+  label {
+    margin-bottom: 0;
+    color: $text-strong-color;
+  }
+
+  .submitDescription {
+    font-weight: normal;
+    color: $text-color;
+    line-height: 1.4;
+  }
+}
+
+.actionInfo {
+  margin-bottom: $gutter-size;
+}
+
+.btnGroup {
+  margin-top: $gutter-size;
+}
+
+.title {
+  color: $text-strong-color;
+  font-size: $font-size-btn-lg;
+}
+
+.estimateGas {
+  margin-left: 10px;
+  font-size: 8px;
+  color: #747c89;
+}
+
+.main {
+  border: 1px solid $border-color;
+  padding: $gutter-size;
+  margin-bottom: $gutter-size;
+}
+
+.balanceHint {
+  position: relative;
+  top: -30px;
+}
+
+.optionsBtnContianer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  height: 150px;
+  input {
+    margin: 0 5px;
+  }
+  & > label {
+    height: 40px;
+    overflow-y: hidden;
+  }
+  & > label > label {
+    line-height: 36px;
+  }
+  .form-group {
+    margin-bottom: 0 !important;
+  }
+}
+
+.optionsBtn {
+  margin: 5px 0;
+}
+
+.optionsLabel {
+  vertical-align: top;
+  width: 150px;
+}
